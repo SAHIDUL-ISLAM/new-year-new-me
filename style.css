@@ -123,3 +123,35 @@ main{
     cursor: pointer;
 }
 /* main content end  */
+/* footer  */
+footer{
+    background-color: black;
+    padding: 130px 230px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    gap: 200px;
+}
+.left-side p, .social-logo{
+    margin-top: 25px;
+}
+.right-side input, button{
+    margin-top: 25px;
+}
+.right-side input{
+    padding: 15px 25px;
+    background-color: black;
+    color: white;
+    border: 1px sold #ff0000;
+}
+.right-side button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
