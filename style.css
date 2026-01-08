@@ -26,7 +26,7 @@ header .container .main p{
     line-height: 24px;
     color: #444343;
 }
-header .container .main button{
+.hd-btn{
     margin-top: 32px;
     padding: 15px 35px;
     border: none;
@@ -35,6 +35,7 @@ header .container .main button{
     color: white;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 /* header end  */
 
@@ -87,5 +88,38 @@ main{
 .card-category p{
     color: #444343;
     margin-top: 16px;
+}
+
+/* call section  */
+.feedback{
+    margin-top: 130px;
+    /* background-image: url(images/watch.png), url(images/gradient2.png); */
+     background-image:
+    linear-gradient(to right, rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('images/watch.png'),
+    url('images/gradient2.png');
+    background-position: 100%;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+}
+.feedback .call-us{
+    padding: 59px 64px;
+}
+.feedback .call-us h1{
+    font-size: 40px;
+    color: white;
+    max-width: 80%;
+}
+.call-btn{
+    margin-top: 32px;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
 }
 /* main content end  */
