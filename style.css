@@ -24,6 +24,7 @@ header .container .main h1{
 header .container .main p{
     margin-top: 24px;
     line-height: 24px;
+    color: #444343;
 }
 header .container .main button{
     margin-top: 32px;
@@ -35,3 +36,34 @@ header .container .main button{
     font-size: 20px;
     font-weight: 600;
 }
+/* header end  */
+
+/* main content start  */
+#container{
+    padding: 130px 230px;
+}
+.past-year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+}
+.past-year .content h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.past-year .content .about-cont{
+    color: #444343;
+    margin-top: 24px;
+    line-height: 25px;
+}
+.past-year .content .list{
+    margin-top: 16px;
+}
+.past-year .content .list p{
+    margin-top: 8px;
+}
+.past-year .content .list i{
+    color: #16D887;
+}
+/* main content end  */
