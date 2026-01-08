@@ -39,7 +39,8 @@ header .container .main button{
 /* header end  */
 
 /* main content start  */
-#container{
+/* failure */
+main{
     padding: 130px 230px;
 }
 .past-year{
@@ -50,7 +51,6 @@ header .container .main button{
 }
 .past-year .content h1{
     font-size: 40px;
-    font-weight: 600;
 }
 .past-year .content .about-cont{
     color: #444343;
@@ -65,5 +65,27 @@ header .container .main button{
 }
 .past-year .content .list i{
     color: #16D887;
+}
+/* plans  */
+.plans{
+    padding-top: 130px;
+}
+.plans .plan-heading{
+    text-align: center;
+    font-size: 40px;
+}
+.plans .card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card-category h1{
+    font-size: 30px;   
+    margin-top: 24px;
+}
+.card-category p{
+    color: #444343;
+    margin-top: 16px;
 }
 /* main content end  */
